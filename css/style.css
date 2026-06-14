@@ -77,3 +77,18 @@ body {
         margin: 1rem 0;
     }
 }
+
+.boton {
+    border: none;
+    padding: 1.3rem 2rem;
+    margin: 2rem 0;
+    border-radius: .5rem;
+    background-color: #b2727b;
+    color: #F6F7EB;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    &:hover {
+        background-color: #E94F37;
+    }
+}
