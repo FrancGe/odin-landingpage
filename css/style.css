@@ -92,3 +92,26 @@ body {
         background-color: #E94F37;
     }
 }
+
+.seccion-central {
+    background-color: #F6F7EB;
+    padding: 2rem 0 4rem 0;
+    h2 {
+        text-align: center;
+        margin: 3rem 0;
+        color: #b2727b;
+        font-size: 3rem;
+    }
+
+    .flex-central {
+        display: flex;
+        justify-content: space-evenly;
+        
+        div {
+            text-align: center;
+            font-weight: 600;
+            font-size: 2rem;
+            color: #393E41;
+        }
+    }
+}
