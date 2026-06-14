@@ -11,6 +11,7 @@ html {
 body {
     font-family: "Roboto Flex", sans-serif;
     font-size: 1.6rem;
+    background-color: #F6F7EB;
 }
 
 .header {
@@ -117,7 +118,7 @@ body {
 }
 
 .recomendaciones {
-    background-color: aliceblue;
+    background-color: white;
     padding: 10rem 3rem;
     border-radius: .5rem;
 
@@ -162,6 +163,7 @@ body {
 border: none;
 border-radius: .5rem;
 background-color: #F6F7EB;
+border: .5rem solid #393E41;
 color: #393E41;
 padding: 0 5rem;
 font-size: 2rem;
@@ -172,4 +174,12 @@ font-weight: 400;
         color:#F6F7EB;
         border: .5rem solid #F6F7EB;
     }
+}
+
+.footer {
+    background-color: #393E41;
+    color: #F6F7EB;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
