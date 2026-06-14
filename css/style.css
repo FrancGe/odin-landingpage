@@ -133,3 +133,43 @@ body {
         font-weight: 600;
     }
 }
+
+.publicidad {
+    background-color: #E94F37;
+    color: #F6F7EB;
+    padding: 4rem 1rem;
+    margin: 7rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+
+    .publicidad-descripcion {
+        display: block;
+
+        h3 {
+            font-weight: 600;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+}
+
+.boton-publicidad {
+border: none;
+border-radius: .5rem;
+background-color: #F6F7EB;
+color: #393E41;
+padding: 0 5rem;
+font-size: 2rem;
+font-weight: 400;
+
+    &:hover {
+        background-color: #393E41;
+        color:#F6F7EB;
+        border: .5rem solid #F6F7EB;
+    }
+}
